@@ -29,6 +29,10 @@
     padding-left: 550px;
 }
 
+.mainbody {
+    background-color: lightgrey;
+}
+
 .footer {
     padding: 10px;
     background-color: lightgrey;
@@ -69,5 +73,5 @@ li {
 }
 
 li a:hover {
-    background-color: dimgrey;
+    background-color: white;
 }
