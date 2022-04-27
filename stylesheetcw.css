@@ -29,8 +29,28 @@
     padding-left: 550px;
 }
 
-.mainbody {
+.mainbody1 {
+    height: 600px;
     background-color: lightgrey;
+}
+
+.pic1{
+    float: left;
+    height: 200px;
+    width: auto;
+    padding: 10px;
+    display:inline;
+}
+
+.text1{
+    padding: 10px;
+    background-color: white;
+    height:170px;
+    width: 1430px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    display:inline;
+    font-size: 17px;
 }
 
 .footer {
