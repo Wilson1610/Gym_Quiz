@@ -45,6 +45,12 @@
     background-color: lightgrey;
 }
 
+.mainbody3 {
+    padding: 10px;
+    height: 400px;
+    background-color: lightgrey;
+}
+
 #pic1{
     float: left;
     padding: 10px;
@@ -55,6 +61,22 @@
     float: right;
     display: inline;
     padding-left: 10px;
+}
+
+.quizpic1 {
+    height: 250px; 
+    padding-top: 30px;
+    padding-left: 300px;
+    display:inline;
+    float:left;
+}
+
+.quizpic2 {
+    height: 250px;
+    display: inline;
+    float:left;
+    padding-top:30px;
+    padding-left:400px;
 }
 
 .text1{
