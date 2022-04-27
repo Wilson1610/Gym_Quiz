@@ -73,6 +73,17 @@
     display: inline;
 }
 
+#myphoto {
+    float:left;
+    padding: 10px;
+}
+
+#vid1 {
+    display: none;
+    float: left;
+    padding: 10px;
+}
+
 .footer {
     padding: 10px;
     background-color: lightgrey;
