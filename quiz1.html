@@ -3,10 +3,11 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Home Page</title>
+    <title>Quiz 1</title>
+    <script src="Script1.js"></script>
     <link rel="stylesheet" href="stylesheetcw.css" />
 </head>
-<body>
+<body style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
 
     <div class="header">
         <a href="Home.html">
@@ -27,16 +28,52 @@
     </div>
     <br />
 
-    <div class="mainbody3">
-        <p style="text-align:center;">Welcome to the quiz page, Please click on either imagine to start a quiz, Quiz 1 (photo on left) will be an educational quiz about gym and fitness, Quiz 2 (photo on right) will be more of a fun quiz.</p>
-        <a href="quiz1.html">
-            <img class="quizpic1" src="quiz1.png" />
-        </a>
-        <a href="quiz2.html">
-            <img class="quizpic2" src="quiz2.jpg" />
-            
-        </a>
+    <div style="background-color:lightgrey; padding: 10px;" class="quizbody">
+        <p>Q1) What is the recommended protein daily intake for muscle gain?</p>
+        <input type="radio" name="Question1" /> 0.5-1g per KG of bodyweight <br />
+        <input type="radio" name="Question1" id="correct1" /> 1.4-2g per KG of bodyweight <br />
+        <input type="radio" name="Question1" /> 3-4g per KG body weight <br />
+        <input type="radio" name="Question1" /> As much as you can because more protein = bigger biceps <br /> <br />
 
+        <p>Q2) What is the recommended rest period between sets for muscle growth?</p>
+        <input type="radio" name="Question2" id="correct2" /> 2-5 minutes <br />
+        <input type="radio" name="Question2" /> 30 seconds <br />
+        <input type="radio" name="Question2" /> No rest <br />
+        <input type="radio" name="Question2" /> 6-8 minutes <br /> <br />
+
+        <p>Q3) Controlling the eccentric (the movement of lowering the weight) movement is as important as the concentric (the pushing of the weight) movement.</p>
+        <input type="radio" name="Question3" id="correct3" /> True, controlling the eccentric will put the muscle under tenstion for a longe period which will increase muscle building. <br />
+        <input type="radio" name="Question3" /> False, controlling the eccentric means get tired quicker and not able to get enough repititions in. <br /> <br />
+
+        <p>Q4) What is the largest muscle in the human body?</p>
+        <input type="radio" name="Question4" /> Pectoralis major <br />
+        <input type="radio" name="Question4" /> Triceps Brachii <br />
+        <input type="radio" name="Question4" /> Deltoid <br />
+        <input type="radio" name="Question4" id="correct4" /> Gluteus maximus <br /> <br />
+
+        <p>Q5) What nutrient helps muscle recover faster?</p>
+        <input type="radio" name="Question5" /> Carbohydrates <br />
+        <input type="radio" name="Question5" /> Fats <br />
+        <input type="radio" name="Question5" /> Vitamins <br />
+        <input type="radio" name="Question5" id="correct5" /> Protein <br /> <br />
+
+        <p>Q6) What is the recommended calorie per day deficit for weight loss?</p>
+        <input type="radio" name="Question6" /> 1000-1200 calorie deficit <br />
+        <input type="radio" name="Question6" /> 200-400 calorie deficit <br />
+        <input type="radio" name="Question6" id="correct6" /> 500-700 calorie deficit <br />
+        <input type="radio" name="Question6" /> 800-900 calorie deficit <br /> <br />
+
+        <p>Q7) Rest days are as important</p>
+        <input type="radio" name="Question7" /> False, The protein helps with recovery and taking a couple days off every week will slow down the muscle gains <br />
+        <input type="radio" name="Question7" id="correct7" /> True, Rest days will help the muscles recover, allowing the muscle to recover means the muscles isnt over worked and will allow you to keep working out consistently <br /> <br />
+
+        <p>Q8) What is the best exercise for weight loss</p>
+        <input type="radio" name="Question8" id="correct8" /> Cardio <br />
+        <input type="radio" name="Question8" /> Weight excerises <br />
+        <input type="radio" name="Question8" /> Yoga <br />
+        <input type="radio" name="Question8" /> Stretching <br /> <br />
+
+        <input type="submit" name="submit" value="Submit Quiz" onclick="result();" />
     </div>
     <br />
 
