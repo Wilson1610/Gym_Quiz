@@ -46,6 +46,14 @@ function result() {
         score++
     }
 
+    if (document.getElementById('correct9').checked) {
+        score++
+    }
+
+    if (document.getElementById('correct10').checked) {
+        score++
+    }
+
     if (score == 0) {
         alert("Oh no you scored: " + score)
         alert("Go over to the learn page or go over to the contact me page if you have any questions")
